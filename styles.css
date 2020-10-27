@@ -1,0 +1,97 @@
+#containerr {
+  background-color: #fff;
+  width: 830px;
+  height: 450px;
+  border-radius: 20px;
+  margin-top: 7%;
+  overflow: hidden;
+}
+@media (max-width: 576px) {
+  #containerr {
+    background-color: #fff;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    margin-top: 35%;
+    margin-bottom: 50px;
+
+  }
+  .faq {
+    padding-top: 80px;
+    
+  }
+  .mobileTitle{
+      font-size: xx-large;
+  }
+}
+#womanImage {
+  width: 410px;
+  position: absolute;
+  left: -70px;
+  top: 40px;
+  z-index: 2;
+}
+
+#boxImage {
+  position: fixed;
+  width: 180px;
+  margin-left: -100px;
+  margin-top: 180px;
+  z-index: 3;
+}
+#bg-pattern {
+  position: absolute;
+  width: 700px;
+  left: -350px;
+  bottom: -150px;
+}
+.card-header {
+  background-color: #fff !important;
+}
+.card {
+  border: none;
+}
+a {
+  text-align: start;
+}
+#titleHead {
+  font-size: 14px !important;
+}
+#titleHead:hover {
+  text-decoration: none;
+  color: rgb(255, 102, 102) !important;
+}
+#titleHead:focus {
+  text-decoration: none;
+}
+#titleHead[aria-expanded="true"] {
+  font-weight: bold;
+}
+#titleHead[aria-expanded="true"] + img {
+  transform: rotate(180deg);
+}
+.card-body {
+  font-size: small;
+  margin: 0ch;
+}
+
+input,
+textarea,
+a {
+  outline: none;
+  border: 0px solid #ccc !important;
+  box-shadow: none !important;
+}
+
+#womanImage-mobile {
+  width: 280px;
+  margin-top: -25%;
+  margin-left: 5%;
+  position: absolute;
+}
+#bg-pattern-mobile {
+  width: 280px;
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 10%;
+}
